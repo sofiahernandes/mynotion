@@ -1,4 +1,5 @@
-→ Notion Clone app built using:
+# MY NOTION APP
+### Notion Clone app built using:
 - @blocknote/core + @blocknote/react
 - @clerk/nextjs
 - Next.js
@@ -6,7 +7,7 @@
 - Zustand
 - Zod
 
-→ Main features: 
+### Main features: 
 - Real-time database
 - Notion-style editor
 - Infinite children documents
@@ -23,17 +24,19 @@
 - Landing page
 - Cover image of each document
 
-RUNNING THE APP LOCALLY
-→ Clone the repository:
-💡 
+## RUNNING THE APP LOCALLY
+### Clone the repository:
+```jsx
+git clone https://github.com/sofiahernandes/mynotion.git
+```
 
-→ Install all packages by running:
+### Install all packages by running:
 ```jsx
 cd MyNotion
 pnpm i
 ```
 
-→ Set up the .env file:
+### Set up the .env file:
 ```jsx
 # Using convex deployment ("npx convex dev")
 CONVEX_DEPLOYMENT=YOURKEY
@@ -44,7 +47,7 @@ EDGE_STORE_ACCESS_KEY=YOURKEY
 EDGE_STORE_SECRET_KEY=YOURKEY
 ```
 
-→ Start the app by running:
+### Start the app by running:
 ```jsx
 npm run dev
 ```
