@@ -1,4 +1,4 @@
-# MY NOTION APP
+## UNFINISHED MY NOTION APP
 ### Notion Clone app built using:
 - @blocknote/core + @blocknote/react
 - @clerk/nextjs
